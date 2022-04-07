@@ -1,0 +1,112 @@
+package com.company;
+
+import java.util.*;
+
+public class Main {
+
+    public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
+//        lab2.1
+//10)esep
+//        int n=in.nextInt();
+//        if(n>0){
+//            System.out.println(n+1);
+//        }
+//        else{
+//            System.out.println(n);
+//        }
+//9)esep
+//        int a=in.nextInt();
+//        int b=in.nextInt();
+//        if(a==b){
+//            System.out.println("0 0");
+//        }
+//        if(a!=b){
+//            System.out.println(a+b);
+//            System.out.println(a+b);
+//        }
+
+//8)esep
+//        int n=in.nextInt();
+//        if(n>0){
+//            System.out.println(n+1);
+//        }
+//        if(n<0){
+//            System.out.println(n-2);
+//        }
+//        if(n==0){
+//            System.out.println(1);
+//        }
+//7)esep 
+//        int n=in.nextInt();
+//        if(n>20){
+//            System.out.println(n/6);
+//        }
+//        else{ System.out.println(n*6);
+//        }
+//6)esep
+//        int a=in.nextInt();
+//        int b=in.nextInt();
+//        int c=in.nextInt();
+//        if((a>10 && a%5==0) && (b>10 && b%5==0) && (c>10 && c%5==0)){
+//            System.out.println("YES");
+//        }
+//        else{ System.out.println("NO");}
+
+//5)esep
+//        int a=in.nextInt();
+//        int b=in.nextInt();
+//        int c=in.nextInt();
+//        if(a==b || b==c || c==a){
+//            System.out.println("YES");
+//        }
+//        else{ System.out.println("NO");}
+
+//4)esep
+//        int a=in.nextInt();
+//        int b=in.nextInt();
+//        int c=in.nextInt();
+//        if (a==b && b==c && c==a){
+//            System.out.println("YES");
+//        }
+//        else{
+//            System.out.println("NO");
+//        }
+//3)esep
+//        int a=in.nextInt();
+//        int b=in.nextInt();
+//        int c=in.nextInt();
+//        if (c>b && b>a){
+//            System.out.println(c-a);
+//        }
+//        if(b>c && c>a){
+//            System.out.println(b-a);
+//        }
+//        if(a>b && b>c){
+//            System.out.println(a-c);
+//        }
+
+//2)esep
+//        int a=in.nextInt();
+//        int b=in.nextInt();
+//        int c=in.nextInt();
+//        if(a<b+c && b<a+c && c<a+b){
+//          System.out.println("YES");
+//        }
+//        else {
+//            System.out.println("NO");
+//        }
+
+//1)esep
+//        int a = in.nextInt();
+//        int b = in.nextInt();
+//
+//        if (a > b) {
+//            System.out.println(a);
+//        }
+//        if (a < b) {
+//            System.out.println(b);
+//        }
+
+    }
+}

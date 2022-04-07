@@ -1,0 +1,393 @@
+import java.util.*;
+public class Ayanl4 {
+    public static void main(String[] args) {
+        Scanner Ayan = new Scanner(System.in);
+//        1
+//        int size = Ayan.nextInt();
+//
+//        double scores[] = new double[size];
+//
+//        for(int i=0;i<scores.length;i++){
+//            scores[i] = in.nextDouble();
+//        }
+//        double total = 0;
+//        for(int i=0;i<scores.length;i++){
+//            total+=scores[i];
+//        }
+//        double average = total/size;
+//
+//        System.out.println("Total score : " + total);
+//        System.out.println("Average score : " + average);
+ //   }
+//}
+
+//        2
+//        int n = Ayan.nextInt();
+//        int arr[] = new int[n];
+//        int sum = 0;
+//        int m=0;
+//        for (int i = 0; i < arr.length; i++) {
+//            int b = in.nextInt();
+//            arr[i] = b;
+//        }
+//        for (int i = 0; i < arr.length; i++) {
+//            if(i%2==0) {
+//                sum = sum + arr[i];
+//                m++;
+//            }
+//        System.out.print(sum/m);
+//        }
+
+
+//        3
+//        int n =  Ayan.nextInt();
+//        double scores[] = new double[n];
+//        for(int i=0;i<scores.length;i++){
+//            scores[i] = in.nextDouble();
+//        }
+//        double total = 0;
+//        int count = 0;
+//        for(int i=0;i<scores.length;i++){
+//            if(scores[i] <0){
+//                count++;
+//                total+=scores[i];
+//            }
+//        }
+//
+//        System.out.println(total/count);
+
+
+//        4
+//        int n =  Ayan.nextInt();
+//        int arr[] = new int[n];
+//        int sum = 0;
+//        int count=0;
+//        for (int i = 0; i < arr.length; i++) {
+//            int b = in.nextInt();
+//            arr[i] = b;
+//            sum = sum + (arr[i]);
+//            count++;
+//        }
+//        double m =sum/n;
+//        for (int i = 0; i < arr.length; i++) {
+//
+//            if (m < arr[i]) {
+//                System.out.print(arr[i] + " ");
+//
+//            }
+//        }
+
+//        5
+//        int n= Ayan.nextInt();
+//        int arr[]=new int[n];
+//        int res=1;
+//        for (int i = 0; i < arr.length; i++) {
+//            int b = in.nextInt();
+//            arr[i]=b;
+//            if (arr[i] != 0) {
+//                res = res * arr[i];
+//            }
+//        }
+//        System.out.println(res);
+
+
+
+//        6
+//        int n= Ayan.nextInt();
+//        int arr[]=new int[n];
+//        for (int i = 0; i < arr.length; i++) {
+//            int b =  Ayan.nextInt();
+//            arr[i]=b;
+//        }
+//        int k= Ayan.nextInt();
+//        for (int i = 0; i < arr.length; i++) {
+//            if(arr[i]%k==0)
+//            System.out.print(arr[i] + " ");
+//        }
+
+
+//        7
+//        int n= Ayan.nextInt();
+//        int arr[]=new int[n];
+//        int res=1;
+//        for (int i = 0; i < arr.length; i++) {
+//            int b =  Ayan.nextInt();
+//            arr[i] = b;
+//            if (arr[i] != 0 && i % 2 == 0)
+//                res = res * arr[i];
+//        }
+//        System.out.println(res);
+
+
+//        8
+//        int n= Ayan.nextInt();
+//        int arr[]=new int[n];
+//
+//        for (int i = 0; i < arr.length; i++) {
+//            int b =  Ayan.nextInt();
+//            arr[i] = b;
+//        }
+//        int maxx=arr[0];
+//        for (int i = 0; i < arr.length; i++) {
+//            if (arr[i] > maxx)
+//                maxx = arr[i];
+//        }
+//        System.out.println(maxx);
+
+//        9
+//        int n= Ayan.nextInt();
+//        int arr[]=new int[n];
+//
+//        for (int i = 0; i < arr.length; i++) {
+//            int b =  Ayan.nextInt();
+//            arr[i] = b;
+//        }
+//        int min = arr[0];
+//        for (int i = 0; i < arr.length; i++) {
+//            if(arr[i]<min)
+//                min=arr[i];
+//        }
+//        System.out.println(min*min);
+
+//        10
+//        int n=  Ayan.nextInt();
+//        int arr[]=new int[n];
+//        int index=0;
+//        for (int i = 0; i < arr.length; i++) {
+//            int b =  Ayan.nextInt();
+//            arr[i] = b;
+//        }
+//        int max=arr[0];
+//
+//        for(int i =0; i<arr.length; i++) {
+//            if (arr[i] > max) {
+//                max = arr[i];
+//                index = i;
+//            }
+//        }
+//        System.out.print(max + " " + index);
+
+
+//lab4.1
+
+
+//        1 
+//        int n = Ayan.nextInt();
+//        int arr[]= new int[n];
+//
+//        for (int i=0;i< arr.length;i++){
+//            arr[i]= Ayan.nextInt();
+//
+//        }
+//        int max=arr[0];
+//        int min=arr[0];
+//        for ( int i =0; i< arr.length;i++){
+//            if ( arr[i]>max){
+//                max=arr[i];
+//            }
+//            if ( arr[i]<min)
+//                min = arr[i];
+//
+//        }
+//        System.out.println(min +" "+max );
+//
+//        2 
+//        int n = Ayan.nextInt();
+//        int arr[]= new int[n];
+//
+//        for (int i=0;i< arr.length;i++){
+//            arr[i] = Ayan.nextInt();
+//        }
+//        int max=arr[0];
+//        int min=arr[0];
+//        for ( int i =0; i< arr.length;i++){
+//            if ( arr[i]>max){
+//                max=arr[i];
+//            }
+//            if ( arr[i]<min)
+//                min = arr[i];
+//
+//        }
+//        System.out.println(max-min);
+//
+//        3
+//        int n = Ayan.nextInt();
+//        int arr[]= new int[n];
+//        for (int i=0;i< arr.length;i++)
+//            {
+//            arr[i] = Ayan.nextInt();
+//            }
+//
+//        int max=arr[0];
+//        int min=arr[0];
+//        int sum=0;
+//        int  x1=0;
+//        double  x2=0;
+//
+//        for ( int i =0; i< arr.length;i++)
+//            {
+//            if ( arr[i]>max)
+//                max=arr[i];
+//            if ( arr[i]<min)
+//                min = arr[i];
+//
+//            sum=sum+arr[i];
+//            x1 = sum - max - min;
+//            x2 = sum - max - min;
+//            }
+//        System.out.println(x1);
+//        System.out.println( x2/(n-2));
+//
+//        4 
+//        int n = Ayan.nextInt();
+//        int arr[]=new int[n];
+//        for (int i=0;i< arr.length;i++){
+//            arr[i] = in.nextInt();
+//        }
+//        int m= Ayan.nextInt();
+//        int nope =0;
+//        for ( int i =0; i< arr.length;i++){
+//            if ( arr[i]==m) {
+//                System.out.println("yes");
+//                System.out.println(i);
+//            }else if (m != arr[i])
+//                nope++;
+//
+//        }
+//        if (n == nope)
+//            System.out.println("No");
+//
+//        5 
+//        int n = Ayan.nextInt();
+//
+//        int arr[]=new int[n];
+//        for (int i=0;i< arr.length;i++){
+//            arr[i] = Ayan.nextInt();
+//        }
+//        int m = Ayan.nextInt();
+//      double asd=0;
+//        double sum=0;
+//        for ( int i =0; i< arr.length;i++){
+//
+//            if (arr[i] > m  ){
+//                sum=sum+arr[i];
+//                asd++;
+//
+//
+//            }
+//        }
+//     System.out.println(sum/asd);
+//
+//        6 
+//        int n = Ayan.nextInt();
+//
+//        int arr[]=new int[n];
+//        for (int i=0;i< arr.length;i++) {
+//            arr[i] = Ayan.nextInt();
+//        }
+//        int m=n;
+//        for ( int i=0;i< arr.length;i++){
+//            m--;
+//            System.out.print(arr[m]+" ");
+//        }
+
+//
+//     7 
+//     int n = Ayan.nextInt();
+//
+//     int arr[]=new int[n];
+//            for (int i=0;i< arr.length;i++) {
+//            arr[i] = Ayan.nextInt();
+//        }
+//
+//      int max=arr[0];
+//      int min=arr[0];
+//
+//          for (int i=0;i< arr.length;i++){
+//            if (min>arr[i] )
+//                min=arr[i];
+//            if (max<arr[i])
+//             max=arr[i];
+//        }
+//        System.out.print(max+" ");
+//         for ( int i =1; i < arr.length-1;i++){
+//             System.out.print(arr[i]+" ");
+//       }
+//
+//        System.out.print(min+" ");
+//
+//        8 
+//        int n = Ayan.nextInt();
+//
+//        int arr[]=new int[n];
+//        for (int i=0;i< arr.length;i++) {
+//            arr[i] = Ayan.nextInt();
+//        }
+//        int m=0;
+//        for (int i=0;i< arr.length;i++){
+//            if (arr[i]%2==0)
+//                m++;
+//        }
+//        int b=0;
+//        int arr2[]=new int[m];
+//        for (int i=0;i< arr.length;i++){
+//            if (arr[i]%2==0){
+//
+//                arr2[b] = arr[i];
+//                b++;
+//            }
+//        }
+//        System.out.println(arr2);
+//
+//        for (int i=0;i< arr.length;i++) {
+//            System.out.print(arr2[i]+" ");
+//        }
+
+//        9 
+//        int n = Ayan.nextInt();
+//        int arr[]=new int[n];
+//
+//        for (int i=0;i< arr.length;i++) {
+//             arr[i] = Ayan.nextInt();
+//        }
+//        int sum=0;
+//        boolean start = false;
+//
+//        for (int i = 0; i < n; i++) {
+//            if (start) {
+//                sum+=arr[i];
+//    }
+//            if(arr[i]==0){
+//                start=!start;
+//            }
+//}
+//        System.out.print(sum);
+//        10 
+//        int n = Ayan.nextInt();
+//        int arr[]=new int[n];
+//
+//        for (int i=0;i< arr.length;i++) {
+//            arr[i] = Ayan.nextInt();
+//       }
+//        for(int i=1;i< arr.length;i++){
+//            if(arr[i]<0 && arr[i-1]>0 ){
+//                System.out.print("YES");
+//            }
+//            else{
+//                System.out.print("NO");
+//            }
+//         return 0;
+//        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
